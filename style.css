@@ -11,10 +11,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom:  150px;
 }
 .helf-width{
-    width: 60%;
-    margin-left: 5%;
+    width:60%;
+    margin-left:5%;
   
 }
 .helf-width img{
@@ -30,6 +31,20 @@ section{
 }
 
 .top-banner{
-    background-image: url(pic/top-border.PNG);
+  background-image: url(pic/top-border.PNG);
     background-repeat: no-repeat;
+   
 }
+.dream-button {
+text-decoration: none;
+background-image: linear-gradient(orange ,tomato);
+padding:10px 40px ;
+border-radius: 20px;
+}
+.dream-big{
+ 
+    background-image: url(pic/big-dream.png);
+   background-repeat: no-repeat;
+  background-position: right;
+}
+
